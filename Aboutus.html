@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Agbalumo">
+    
+    <title>RichField Chair</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Agbalumo', sans-serif;
+    background-color: rgb(238, 235, 235);
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.logo img{
+    height: 12vh;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    align-items: center;
+    background-color: black;
+}
+.navigation a i{
+    font-size: 1.4rem;
+    margin: 5px;
+    color: whitesmoke;
+
+}
+nav{
+
+background-color: rgb(238, 235, 235);
+
+}
+.nav-item:hover{
+color: #FFCC00;
+
+}
+.navbar-nav li a{
+  color: antiquewhite;
+}
+
+.navbar-nav li a:hover{
+background-color: #FFCC00;
+border-radius: 6px;
+}
+ul i:hover{
+
+
+border: 3px solid gray;
+border-radius: 4px;
+}
+
+.about-us h2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.about-us span{
+    color: #FFCC00;
+}
+.carousel-item img{
+    height: 430px;
+    width: 80%; 
+    flex-wrap: wrap;
+    /* margin-left: 70px;
+    margin-top: 20px; */
+    
+}
+.about-us{
+  margin: 20px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 110px;
+    margin-top: 20px;
+
+    
+
+}
+.about h5{
+    color: #FFCC00;
+}
+.carousel-inner img{
+    margin: auto;
+}
+.Footer{
+  background-color: black;
+}
+</style>
+  </head>
+  <body>
+     <!-- Navbar -->
+     <div class="Navbar">
+        <div class="navigation">
+          <div class="logo"><img src="./logo/Logo/WhatsApp Image 2023-11-22 at 01.09.40_242f2c8e.jpg" alt=""></div>
+        <div class="icons ms-auto ">
+      <a href="Register.html"><i class="btn fa-solid fa-right-to-bracket bg-warning" data-bs-toggle="modal" data-bs-target="#exampleModal"></i></a>
+    
+      
+        </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light   ">
+          <div class="container-fluid mx-4">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav mx-2">
+                <li class="nav-item mx-2" >
+                  <a class="nav-link active " aria-current="page" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown mx-1">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Catagories
+                  </a>
+                  <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="All-catagory.html">All Catagories Chairs</a></li>
+                    <li><a class="dropdown-item" href="Gaming-c.html">Gaming Chairs</a></li>
+                    <li><a class="dropdown-item" href="Office-c.html">Office Chairs Chairs</a></li>
+                    <li><a class="dropdown-item" href="Fancy-c.html">Fancy Chairs</a></li>
+                    <li><a class="dropdown-item" href="Dining-c.html">Dining Chairs</a></li>
+                    <li><a class="dropdown-item" href="bartool-c.html">Comfortable Bar Tool Chairs</a></li>
+    
+                  </ul>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="Aboutus.html">About us</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="./Contact.html">Contact</a>
+                </li>
+                
+                
+              </ul>
+              <form class="d-flex ms-auto">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-warning" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+        </div>
+        <div class="about-us shadow p-2 mb-5 bg-white rounded"data-aos="zoom-in">
+            <h2 >About <span> Us</span></h2>
+            <div id="carouselExampleSlidesOnly" class="carousel slide  " data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./Chairs/Crusel pic/whatsapp_image_2020-07-29_at_4.03.48_pm_720x.webp" class="d-block w-90" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./Chairs/Dining Chairs/Dining-Chairs-Set-of-2-Modern-Kitchen-Dining-Room-Chairs-Set-of-2-Grey_e11efa1d-5229-49ba-bce6-e037486b6c2d.e166cf419e8c8daef4500d4c114e4f96.webp" class="d-block w-90" alt="...">
+                  </div>
+                 
+                </div>
+              </div>
+              <div class="heading d-flex justify-content-center mt-4">
+                <h3>About Us <span> Message</span></h3>
+              </div>
+              <div class="about shadow p-2 mb-5 bg-white rounded">
+              <span>"</span><p> RichField Chair  dealing best quality imported  chairs.Richfield Chair  offer delivery all over Pakistan. Our mission is to give best possible market competitive price to our Customers with timely fashion, hassle free delivery</p>
+                <h5>Mission:</h5>
+                   <p> Inspire the masses as well as small and medium sized organizations to become the users of  branded Chairs.</p>
+                    
+                   <h5> Vision:</h5>
+                   <p>To be the first and only Chair brand chosen for our innovation, customized solutions,  durability, customer services, and affordable prices.</p> 
+                    
+                   <h5> Value:</h5>
+                   <p> Customer Excellence
+                    Innovation
+                    Communication
+                    Result Orientation. <span>"</span> </p>
+                    
+                </div>
+        </div>
+        
+        <div class="Footer">
+          <div class="container ">
+            <!-- Footer -->
+            <footer
+                    class="text-center text-lg-start text-white"
+                    style="background-color: black"
+                    >
+
+              <div class="container p-4 pb-0">
+                
+                <section>
+              
+                  <div class="row">
+                
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                      <h6 class="text-uppercase mb-4 font-weight-bold">
+                        About us
+                      </h6>
+                      <p>
+                        RichField Chair  dealing best quality imported  chairs.Richfield Chair  offer delivery all over Pakistan. Our mission is to give best possible market competitive price to our Customers with timely fashion, hassle free delivery 
+                      </p>
+                    </div>
+                    <!-- Grid column -->
+          
+                    <hr class="w-100 clearfix d-md-none" />
+          
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                      <h6 class="text-uppercase mb-4 font-weight-bold">Catagories</h6>
+                      <p>
+                        <a href="Office-c.html" class="text-white">Office Chairs</a>
+                      </p>
+                      <p>
+                        <a href="Fancy-c.html" class="text-white">Fancy CHairs</a>
+                      </p>
+                      <p>
+                        <a href="Gaming-c.html" class="text-white">Gaming CHairs</a>
+                      </p>
+                      <p>
+                        <a href="Dining-c.html" class="text-white">Dining Chairs</a>
+                      </p>
+                    </div>
+                    <!-- Grid column -->
+          
+                    <hr class="w-100 clearfix d-md-none" />
+          
+                    <!-- Grid column -->
+                    <hr class="w-100 clearfix d-md-none" />
+          
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                      <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                      <p><i class="fas fa-home mr-3"></i> APWA Complex, 67-A, Aga Khan III Road, Garden East, Karachi</p>
+                      <p><i class="fas fa-envelope mr-3"></i> haseeb2308a@gmail.com</p>
+                      <p><i class="fas fa-phone mr-3"></i> + 92 321 8764 320 </p>
+                      <p><i class="fas fa-print mr-3"></i> + 021 234 567 89</p>
+                    </div>
+                    <!-- Grid column -->
+          
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                      <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
+          
+                      <!-- Facebook -->
+                      <a
+                         class="btn btn-primary btn-floating m-1"
+                         style="background-color: #3b5998"
+                         href="https://www.facebook.com/haseeb.nadeem.921?mibextid=kFxxJD"
+                         role="button"
+                         ><i class="fab fa-facebook-f"></i
+                        ></a>
+          
+                      <!-- Twitter -->
+                      <a
+                         class="btn btn-primary btn-floating m-1"
+                         style="background-color: #55acee"
+                         href="https://x.com/HaseebN16298955?t=Al7ED7YzUetpEIFgMummkQ&s=08"
+                         role="button"
+                         ><i class="fab fa-twitter"></i
+                        ></a>
+          
+                      <!-- Instagram -->
+                      <a
+                         class="btn btn-primary btn-floating m-1"
+                         style="background-color: #ac2bac"
+                         href="#!"
+                         role="button"
+                         ><i class="fab fa-instagram"></i
+                        ></a>
+          
+                    </div>
+                  </div>
+                  <!--Grid row-->
+                </section>
+                <!-- Section: Links -->
+              </div>
+              <!-- Grid container -->
+          
+              <!-- Copyright -->
+              <div
+                   class="text-center p-3"
+                   style="background-color: rgba(0, 0, 0, 0.2)"
+                   >
+                © 2023 Copyright:
+                <a class="text-white" href="https://mdbootstrap.com/"
+                   >Richfield Chairs</a
+                  >
+              </div>
+              <!-- Copyright -->
+            </footer>
+            <!-- Footer -->
+          </div>
+          <!-- End of .container -->
+        </div>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+   <script>
+      AOS.init();
+    </script>
+    
+  </body>
+</html>

@@ -1,0 +1,523 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Agbalumo">
+    <title>RichField Chairs</title>
+    <style>
+        body{
+    font-family: 'Agbalumo', sans-serif;
+    background-color: rgb(238, 235, 235);
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+        }
+        .logo img{
+    height: 12vh;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    align-items: center;
+    background-color: black;
+}
+.navigation a i{
+    font-size: 1.4rem;
+    margin: 5px;
+    color: whitesmoke;
+
+}
+nav{
+
+background-color: rgb(238, 235, 235);
+
+}
+.nav-item:hover{
+color: #FFCC00;
+
+}
+.navbar-nav li a{
+  color: antiquewhite;
+}
+
+.navbar-nav li a:hover{
+background-color: #FFCC00;
+border-radius: 6px;
+}
+ul i:hover{
+
+
+border: 3px solid gray;
+border-radius: 4px;
+}
+.banner{
+    
+    margin-top: 5px;
+    height: 88%;
+    width: 99%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+    margin-right: 10px;
+    background:url(./brown-product-background.jpg);
+    background-position: cover;
+    background-size: 70%;
+
+   
+
+}
+.banner .img{
+    flex: 1 1 200px;
+}
+
+.banner .img img{
+    width: 45%;
+    height: 49%;
+    margin-top: 10px;
+    ;
+}
+.banner .img .img2{
+    margin-left: -40px;
+}
+
+.banner .content{
+    flex: 1 1 400px;
+    margin-left: 60px;
+
+}
+.banner .content h2{
+    font-size: 2.5rem;
+    color: gainsboro;
+}
+.banner .content span{
+    color: #FFCC00;
+}
+.banner .content p{
+    color: white;
+    font-size: 1.2rem;
+}
+/* .banner .content button{
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #FFCC00;
+    cursor: pointer;
+    border: 2px solid black;
+}
+.banner .content button:hover{
+    background-color: #fac800;
+} */
+.banner span .img1{
+    margin-right: 10px;
+    
+}
+
+.deal{
+  position: absolute;
+  top: 0;
+  /* border: 2px solid black; */
+  padding: 5px;
+  background-color: #FFCC00;
+  border-radius: 2px;
+}
+
+.office-chairs {
+margin: 50px;
+        }
+.office-chairs h3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.office-chairs span{
+    color: #FFCC00;
+}
+.card{
+    margin-top: 25px;
+}
+.Old-Price-tag{
+  text-decoration: line-through;
+  font-size: 0.7rem;
+  color: #333333;
+}
+.card .cart{
+    flex-wrap: wrap;
+    font-weight: bolder;
+    border-radius: 5px;
+    background-color:rgb(69, 65, 65);
+    color: #FFCC00;
+    cursor: pointer;
+    height: 35px;
+    padding: 8px;
+    
+
+}
+.card .cart:hover{
+    background-color: black;
+}
+.card .cart a{
+  text-decoration: none;
+  color: #FFCC00;
+}
+.card-body i a{
+  text-decoration: none;
+  color: #FFCC00;
+}
+.Footer{
+    background-color: black;
+}
+
+
+    </style>
+  </head>
+  <body>
+      <!-- Navbar -->
+      <div class="Navbar">
+        <div class="navigation">
+          <div class="logo"><img src="./logo/Logo/WhatsApp Image 2023-11-22 at 01.09.40_242f2c8e.jpg" alt=""></div>
+        <div class="icons ms-auto ">
+      <a href="Register.html"><i class="btn fa-solid fa-right-to-bracket bg-warning" data-bs-toggle="modal" data-bs-target="#exampleModal"></i></a>
+    
+      
+        </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+          <div class="container-fluid mx-4">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav mx-2">
+                <li class="nav-item mx-2" >
+                  <a class="nav-link active " aria-current="page" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown mx-1">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Catagories
+                  </a>
+                  <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="All-catagory.html">All Catagories Chairs</a></li>
+                    <li><a class="dropdown-item" href="Gaming-c.html">Gaming Chairs</a></li>
+                    <li><a class="dropdown-item" href="Office-c.html">Office Chairs Chairs</a></li>
+                    <li><a class="dropdown-item" href="Fancy-c.html">Fancy Chairs</a></li>
+                    <li><a class="dropdown-item" href="Dining-c.html">Dining Chairs</a></li>
+                    <li><a class="dropdown-item" href="bartool-c.html">Comfortable Bar Tool Chairs</a></li>
+    
+                  </ul>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="Aboutus.html">About us</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="./Contact.html">Contact</a>
+                </li>
+                
+                
+              </ul>
+              <form class="d-flex ms-auto">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-warning" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+        </div>
+        
+      <!-- Navbar End -->
+    <div class="office-chairs">
+        <!-- Banner -->
+
+        <div class="banner"data-aos="fade-right">
+          <div class="content">
+            <h2>Office Chairs <br>Up To<span> 50%</span> Off</h2>
+            <p>Richfield gives you 50% off office chair</p>
+            
+          </div>
+          <div class="img">
+            <img src="./Chairs/Office Chair/fbr-600600.png" alt="">
+            <img class="img2" src="./Chairs/Office Chair/Luxury-Swivel-Boss-Chair-PhotoRoom.png-PhotoRoom.png" alt="">
+          </div>
+            
+          
+        
+        </div>
+        <h3>Office <span> Chairs</span></h3>
+   
+    <div class="O-C">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100"data-aos="zoom-in">
+            <img src="./Chairs/Office Chair/Untitled-1-3.webp" class="card-img-top" alt="...">
+            <div class="deal">50%off</div>
+            <div class="card-body">
+              <h5 class="card-title">New Office Chairs</h5>
+              <p class="card-text">New Modern Luxury Office Chairs.</p>
+              
+              <i class="fa-solid fa-star" style="color: #eaa23e;"></i>
+              <i class="fa-solid fa-star" style="color: #eaa23e;"></i>
+              <i class="fa-solid fa-star" style="color: #eaa23e;"></i>
+              <i class="fa-solid fa-star" style="color: #eaa23e;"></i>
+              <i class="fa-solid fa-star" style="color: #eaa23e;"></i>
+              <div class="Price-tag">
+              <span class="New-price-tag text-warning">4500 Rs</span>
+              <span class="Old-Price-tag text-dark">9000 RS</span>
+            </div>
+            <br>
+            <i class="cart fa-solid fa-cart-shopping"><a href="buyNow.html"> Buy Now</a></i>
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100"data-aos="zoom-in">
+            <img src="./Chairs/Office Chair/Luxury-Swivel-Boss-Chair.webp" class="card-img-top" alt="...">
+            <div class="deal">50%off</div>
+            <div class="card-body">
+              <h5 class="card-title">Luxary CEO Chairs</h5>
+              <p class="card-text">New Modern Luxary CEO Chairs.</p>
+              <i class="fa-solid fa-star" style="color: #eaa23e;"></i>
+              <i class="fa-solid fa-star" style="color: #eaa23e;"></i>
+              <i class="fa-solid fa-star" style="color: #eaa23e;"></i>
+              <i class="fa-solid fa-star" style="color: #eaa23e;"></i>
+              <i class="fa-solid fa-star" style="color: #eaa23e;"></i>
+              <div class="Price-tag">
+                <span class="New-price-tag text-warning">5500 Rs</span>
+                <span class="Old-Price-tag text-dark">11000 RS</span>
+              </div>
+              <br>
+              <i class="cart fa-solid fa-cart-shopping"><a href="buyNow.html"> Buy Now</a></i>
+
+            
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100"data-aos="zoom-in">
+            <div class="deal">50%off</div>
+            <img src="./Chairs/Office Chair/Serta-AIR-Health-amp-Wellness-Big-and-Tall-Eco-friendly-Bonded-Leather-Executive-Office-Chair-Roasted-Chestnut_64a5de62-1e17-44e9-9253-12f7c3c0cf3e.5f6f4b8115275cf1cf9c628c158aea3a.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">New Modern Office CEO Chairs</h5>
+              <p class="card-text">New Modern Office Chair</p>
+              <i class="fa-solid fa-star" style="color: #eaa23e;"></i>
+              <i class="fa-solid fa-star" style="color: #eaa23e;"></i>
+              <i class="fa-solid fa-star" style="color: #eaa23e;"></i>
+              <i class="fa-solid fa-star" style="color: #eaa23e;"></i>
+              <i class="fa-solid fa-star" style="color: #eaa23e;"></i>
+              <div class="Price-tag">
+                <span class="New-price-tag text-warning">5300 Rs</span>
+                <span class="Old-Price-tag text-dark">10600 RS</span>
+              </div>
+              <br>
+              <i class="cart fa-solid fa-cart-shopping"><a href="buyNow.html"> Buy Now</a></i>
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100"data-aos="zoom-in">
+            <img src="./Chairs/Office Chair/Delas-CEO-Chair-1.webp" class="card-img-top" alt="...">
+            <div class="deal">50%off</div>
+            <div class="card-body">
+              <h5 class="card-title">LuxaryOffice Chairs (2450)</h5>
+              <p class="card-text">New Fancy Comfortable Office Chair.</p>
+              <i class="fa-solid fa-star" style="color: #eaa23e;"></i>
+              <i class="fa-solid fa-star" style="color: #eaa23e;"></i>
+              <i class="fa-solid fa-star" style="color: #eaa23e;"></i>
+              <i class="fa-solid fa-star" style="color: #eaa23e;"></i>
+              <i class="fa-solid fa-star" style="color: #eaa23e;"></i>
+            
+              <div class="Price-tag">
+                <span class="New-price-tag text-warning">6000 Rs</span>
+                <span class="Old-Price-tag text-dark">12000 RS</span>
+              </div>
+              <br>
+              <i class="cart fa-solid fa-cart-shopping"> <a href="cart-cart.html">Add to Cart</a></i>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col">
+          <div class="card h-100"data-aos="zoom-in">
+            <img src="./Chairs/Office Chair/Hubei-Mesh-Computer-Chair-1.webp" class="card-img-top" alt="...">
+            <div class="deal">50%off</div>
+            <div class="card-body">
+              <h5 class="card-title">Fancy Office Chairs (1290)</h5>
+              <p class="card-text">New Fancy And comfortable Chair.</p>
+              
+              <i class="fa-solid fa-star" style="color: #eaa23e;"></i>
+              <i class="fa-solid fa-star" style="color: #eaa23e;"></i>
+              <i class="fa-solid fa-star" style="color: #eaa23e;"></i>
+              <i class="fa-solid fa-star" style="color: #eaa23e;"></i>
+              <i class="fa-solid fa-star" style="color: #eaa23e;"></i>
+            
+              <div class="Price-tag">
+                <span class="New-price-tag text-warning">3500 Rs</span>
+                <span class="Old-Price-tag text-dark">7000 RS</span>
+              </div>
+              <br>
+              <i class="cart fa-solid fa-cart-shopping"><a href="buyNow.html"> Buy Now</a></i>
+
+      </div>
+    </div>
+        </div>
+    <div class="col">
+        <div class="card h-100"data-aos="zoom-in">
+
+          <img src="./Chairs/Office Chair/Untitled-Spinal-High-Back-E.webp" class="card-img-top" alt="...">
+          <div class="deal">50%off</div>
+          <div class="card-body">
+            <h5 class="card-title">Fancy Luxary Chairs (5670)</h5>
+            <p class="card-text">Fancy And comfortable Office Chair.</p>
+            
+            <i class="fa-solid fa-star" style="color: #eaa23e;"></i>
+            <i class="fa-solid fa-star" style="color: #eaa23e;"></i>
+            <i class="fa-solid fa-star" style="color: #eaa23e;"></i>
+            <i class="fa-solid fa-star" style="color: #eaa23e;"></i>
+            <i class="fa-solid fa-star" style="color: #eaa23e;"></i>
+          
+            <div class="Price-tag">
+              <span class="New-price-tag text-warning">5000 Rs</span>
+              <span class="Old-Price-tag text-dark">10000 RS</span>
+            </div>
+            <br>
+            <i class="cart fa-solid fa-cart-shopping"><a href="buyNow.html"> Buy Now</a></i>
+
+    </div>
+  </div>
+    </div>
+    </div>
+  </div>
+    </div>
+    <div class="Footer">
+      <div class="container ">
+        <!-- Footer -->
+        <footer
+                class="text-center text-lg-start text-white"
+                style="background-color: black"
+                >
+
+          <div class="container p-4 pb-0">
+            
+            <section>
+          
+              <div class="row">
+            
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">
+                    About us
+                  </h6>
+                  <p>
+                    RichField Chair  dealing best quality imported  chairs.Richfield Chair  offer delivery all over Pakistan. Our mission is to give best possible market competitive price to our Customers with timely fashion, hassle free delivery 
+                  </p>
+                </div>
+                <!-- Grid column -->
+      
+                <hr class="w-100 clearfix d-md-none" />
+      
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">Catagories</h6>
+                  <p>
+                    <a href="Office-c.html" class="text-white">Office Chairs</a>
+                  </p>
+                  <p>
+                    <a href="Fancy-c.html" class="text-white">Fancy CHairs</a>
+                  </p>
+                  <p>
+                    <a href="Gaming-c.html" class="text-white">Gaming CHairs</a>
+                  </p>
+                  <p>
+                    <a href="Dining-c.html" class="text-white">Dining Chairs</a>
+                  </p>
+                </div>
+                <!-- Grid column -->
+      
+                <hr class="w-100 clearfix d-md-none" />
+      
+                <!-- Grid column -->
+                <hr class="w-100 clearfix d-md-none" />
+      
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                  <p><i class="fas fa-home mr-3"></i> APWA Complex, 67-A, Aga Khan III Road, Garden East, Karachi</p>
+                  <p><i class="fas fa-envelope mr-3"></i> haseeb2308a@gmail.com</p>
+                  <p><i class="fas fa-phone mr-3"></i> + 92 321 8764 320 </p>
+                  <p><i class="fas fa-print mr-3"></i> + 021 234 567 89</p>
+                </div>
+                <!-- Grid column -->
+      
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
+      
+                  <!-- Facebook -->
+                  <a
+                     class="btn btn-primary btn-floating m-1"
+                     style="background-color: #3b5998"
+                     href="https://www.facebook.com/haseeb.nadeem.921?mibextid=kFxxJD"
+                     role="button"
+                     ><i class="fab fa-facebook-f"></i
+                    ></a>
+      
+                  <!-- Twitter -->
+                  <a
+                     class="btn btn-primary btn-floating m-1"
+                     style="background-color: #55acee"
+                     href="https://x.com/HaseebN16298955?t=Al7ED7YzUetpEIFgMummkQ&s=08"
+                     role="button"
+                     ><i class="fab fa-twitter"></i
+                    ></a>
+      
+                  <!-- Instagram -->
+                  <a
+                     class="btn btn-primary btn-floating m-1"
+                     style="background-color: #ac2bac"
+                     href="#!"
+                     role="button"
+                     ><i class="fab fa-instagram"></i
+                    ></a>
+      
+                </div>
+              </div>
+              <!--Grid row-->
+            </section>
+            <!-- Section: Links -->
+          </div>
+          <!-- Grid container -->
+      
+          <!-- Copyright -->
+          <div
+               class="text-center p-3"
+               style="background-color: rgba(0, 0, 0, 0.2)"
+               >
+            © 2023 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/"
+               >Richfield Chairs</a
+              >
+          </div>
+          <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+      </div>
+      <!-- End of .container -->
+    </div>
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

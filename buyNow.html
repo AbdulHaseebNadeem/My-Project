@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Agbalumo">
+<style>
+      *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Agbalumo', sans-serif;
+    background-color: rgb(238, 235, 235);
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+
+.BTN{
+  margin-top: 25px;
+  margin-left: 3px;
+  margin-left: 30px;
+}
+.BTN button a{
+  text-decoration: none;
+  color: #FFCC00;
+
+}
+.BTN button{
+  border-radius: 8px;
+  padding: 5px;
+  margin-right: 5px;
+  
+  background-color: rgb(30, 29, 29);
+}
+  .deatail-body{
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+    
+  }
+  .detail-body label{
+    margin: 5px;
+    margin-left: 30px;
+  }
+  .detail-body input{
+  width: 80%;
+  margin: 5px;
+  padding: 5px;
+  margin-left:30px ;
+  }
+  .detail-body select{
+    margin: 5px;
+    margin-top: 10px;
+    margin-left: 30px;
+    height: 30px;
+    cursor: pointer;
+    width: 30%;
+    height: 40px;
+  }
+  .detail-body h2{
+margin-left: 30px;
+  }
+  .detail-body span{
+    color: #FFCC00;
+  }
+  .buynow span{
+     color: #FFCC00;
+  }
+  .buynow h3{
+    margin-top:15px ;
+    display: flex;
+    justify-content: center;
+  }
+  
+
+
+</style>
+    <title>RichField Chairs</title>
+  </head>
+  <body>
+     
+  <div class="buynow">
+    <h3>Buy <span> Now</span></h3>
+    <hr>
+    <div class="detail-body">
+      <form id="contact-form" name="contact-form" action="">
+    <h2>Enter <span> Details</span></h2>
+    <label for="Name">Name</label><br>
+    <input type="text" name="name" placeholder="Enter Your Name"><br>
+    <label for="Address">Address</label><br>
+    <input type="text" name="address" placeholder="Enter Your Address"><br>
+    <label for="Number">Phone Number</label><br>
+    <input type="number" name="number" placeholder="Enter Your Phone Number"><br>
+    <select name="select">
+      <option value="">Master Card</option>
+      <option value="">HBL Bank</option>
+      <option value="">Easy Paisa</option>
+      <option value="">Jazz Cash</option>
+    </select>
+
+
+  </div>
+  <div class="BTN">
+    <button id="close" ><a href="index.html">Close</a></button>
+    <button type="submit" id="submit"><a href="index.html">Submit</a></button>
+  </div>
+</form>
+  </div>
+
+   
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   
+  <!-- jquery -->
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js"></script>
+
+        <script>
+        $(document).ready(function(){
+            jQuery('#contact-form').validate({
+                rules : {
+                    name : "required",
+                    select : "required",
+                    email :{
+                        required : true,
+                        email : true
+                    },
+                    number : {
+                        required : true ,
+                        minlength : 11
+                    },
+
+                    
+                },
+                messages : {
+                    name : "Name Must Be Required",
+                    select : "Please Select Payment Method",
+                    email : {
+                        required : "Email Must Be Required",
+                        email : "Please Enter a valid Email"
+                    },
+                    Number : {
+                        required : "Phone Number Must Be Required",
+                        minlength : "Phone Number must 11 Digits"
+                    },
+                    
+                        
+                },
+            })
+        })
+   </script>
+   <script>
+     var submit = document.getElementById('submit')
+     var close = document.getElementById('close')
+
+    submit.addEventListener('click' , function(){
+      alert('Your Has Been Successfull')
+    })
+     
+    close.addEventListener('click' , function(){
+      alert('Your Has Been Cancel')
+    })
+    </script>
+
+   
+  </body>
+</html>

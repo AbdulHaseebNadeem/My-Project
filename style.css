@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Agbalumo', sans-serif;
+    background-color: rgb(238, 235, 235);
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+
+.logo img{
+    height: 12vh;
+}
+
+.carousel-item img{
+    height: 530px;
+    width: 100%;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    align-items: center;
+    background-color: black;
+}
+.navigation a i{
+    font-size: 1.6rem;
+    margin: 5px;
+    color: whitesmoke;
+
+}
+.navigation a i:hover{
+    color: black;
+}
+/* .icons{
+    display: flex;
+    align-items: center;
+    
+
+}
+.icons i{
+
+    border-radius: 5px;
+    color: black;
+    font-size: 1.6rem;
+    z-index: 10;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+.icons i:hover{
+    border: 3px solid #bd9a0d ;
+    border-radius: 5px;
+} */
+ul i{
+    padding: 5px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+
+    background-color: rgb(238, 235, 235);
+    
+}
+.nav-item:hover{
+    color: #FFCC00;
+
+}
+.navbar-nav li a{
+    color: antiquewhite;
+  }
+
+.navbar-nav li a:hover{
+    background-color: #FFCC00;
+    border-radius: 6px;
+}
+ul i:hover{
+    
+
+    border: 3px solid gray;
+    border-radius: 4px;
+}
+
+.d-flex2{
+    background-color: black;
+}
+.services span{
+    font-size: 1.2rem;
+    
+
+    
+
+}
+
+.services:hover{
+    background-color: #FFCC00;
+    opacity: 0.9;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+
+.container-fluid ul li a{
+    color: aliceblue;
+
+}
+.p-i-h h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.p-i-h h3 span{
+    color: #FFCC00;
+
+}
+.Card h5 span{
+color: #FFCC00;
+}
+.catagory{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    background-color: rgb(238, 235, 235);
+    /* margin: 30px;
+    margin-right: 80px;
+    margin-top: 10px; */
+}
+.card-c{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+.item1 a{
+    text-decoration: none;
+}
+.item1 h5{
+    color: black;
+}
+.item1{
+    background:url(./22810_detroit_gaming_chair_with_footrest_-_black___red_17.jpeg);
+    height: 152px;
+    width: 183px;
+    background-position: cover;
+    background-size: 110%;
+    margin: 25px;
+    margin-top: 30px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    cursor: pointer;
+    
+}
+.item2{
+    background:url(./finn_manager_chair_580x_crop_center.webp);
+    height:152px;
+    width: 186px;
+    background-position: cover;
+    background-size: 110%;
+    margin: 25px;
+    margin-top: 30px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    cursor: pointer;
+}
+.item3{
+    background:url(./Dining-Chairs-Set-of-2-Modern-Kitchen-Dining-Room-Chairs-Set-of-2-Grey_e11efa1d-5229-49ba-bce6-e037486b6c2d.e166cf419e8c8daef4500d4c114e4f96.webp);
+    height: 152px;
+    width: 185px;
+    background-position: cover;
+    background-size: 98%;
+    margin: 25px;
+    margin-top: 30px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    cursor: pointer;
+}
+.item4{
+    background:url(./clift-modern-vinyl-adjustable-height-barstool-with-horizontal-stitch-back.webp);
+    height:152px;
+    width: 186px;
+    background-position: cover;
+    background-size: 100%;
+    margin: 25px;
+    margin-top: 30px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.banner{
+    
+    margin-top: 5px;
+    height: 88%;
+    width: 99%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+    margin-right: 10px;
+    background:url(./brown-product-background.jpg);
+    background-position: cover;
+    background-size: 70%;
+
+   
+
+}
+
+.banner .img{
+    flex: 1 1 200px;
+}
+
+.banner .img img{
+    width: 45%;
+    height: 50%;
+    margin-top: 10px;
+    ;
+}
+.banner .img .img2{
+    margin-left: -40px;
+}
+
+.banner .content{
+    flex: 1 1 400px;
+    margin-left: 60px;
+
+}
+.banner .content h2{
+    font-size: 2.5rem;
+    color: gainsboro;
+}
+.banner .content span{
+    color: #FFCC00;
+}
+.banner .content p{
+    color: white;
+    font-size: 1.2rem;
+}
+.banner .content button{
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #FFCC00;
+    cursor: pointer;
+    border: 2px solid black;
+}
+.banner .content button a{
+    text-decoration: none;
+    color: black;
+}
+.banner .content button:hover{
+    background-color: #fac800;
+}
+.banner span .img1{
+    margin-right: 10px;
+    
+}
+
+.best-sellers{
+    margin: 50px;
+
+}
+.best-sellers span{
+    color: #FFCC00;
+}
+.best-sellers h3{
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center;  */
+}  
+
+.card-img-top:hover{
+    color:white;
+    background-color:gray ;
+    cursor: pointer;
+    transition: 1s ease;
+}
+.card{
+    margin-top: 25px;
+}
+.deal{
+    position: absolute;
+    top: 0;
+    /* border: 2px solid black; */
+    padding: 5px;
+    background-color: #FFCC00;
+    border-radius: 2px;
+  }
+.Old-Price-tag{
+    text-decoration: line-through;
+    font-size: 0.7rem;
+    color: #333333;
+  }
+  .Price-tag{
+    color: #FFCC00;
+  }
+ .card-body i a{
+    text-decoration: none;
+    color: #FFCC00;
+  }
+.card .cart{
+    flex-wrap: wrap;
+    font-weight: bolder;
+    border-radius: 5px;
+    background-color:rgb(69, 65, 65);
+    color: #FFCC00;
+    cursor: pointer;
+    height: 35px;
+    padding: 8px;
+    
+
+} 
+
+.BTN{
+    background-color:rgb(69, 65, 65);
+    outline: #FFCC00;
+    color: #FFCC00;
+    padding: 4px;
+    border-radius: 6px;
+  }
+  .btn:hover{
+    color: #fcc800;
+  }
+  
+  .modal-body input{
+  width: 80%;
+  margin: 5px;
+  padding: 5px;
+  }
+  .modal-body select{
+    margin: 5px;
+    height: 30px;
+    cursor: pointer;
+  }
+  .modal-body span{
+    color: #FFCC00;
+  }
+  .modal-header span{
+     color: #FFCC00;
+  }
+
+
+.new-arrival-item{
+    margin: 50px;
+
+}
+.new-arrival-item h3{
+    font-weight: bold;
+    text-align: center;
+}
+.new-arrival-item span{
+    color: #FFCC00;
+}
+.Footer{
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
